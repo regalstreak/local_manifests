@@ -1,0 +1,29 @@
+<!-- Local Manifest for compiling Resurrection Remix MM for the OnePlus 2-->
+
+<manifest>
+
+  <!-- Device, Kernel and Vendor -->
+  <project path="device/oneplus/oneplus2" name="regalstreak/android_device_oneplus_oneplus2" remote="github" revision="rr-6.0" />
+  <project path="kernel/oneplus/msm8994" name="regalstreak/android_kernel_oneplus_msm8994" remote="github" revision="cm-13.0" />
+  <project path="vendor/oneplus" name="grarak/proprietary_vendor_oneplus" remote="github" revision="cm-13.0" />
+
+  <!-- Boringssl -->
+  <project path="external/sony/boringssl-compat" name="Cyanogenmod/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
+
+  <!-- Oppo and qcom common -->
+  <project path="device/oppo/common" name="grarak/android_device_oppo_common" remote="github" revision="cm-13.0" />
+  <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" remote="github" revision="cm-13.0" />
+
+  <!-- Temporary stuff until they merge the PR -->
+
+  <!-- CM Platform SDK -->
+  <remove-project name="cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="regalstreak/cm_platform_sdk" remote="github" revision="marshmallow" />
+
+  <!-- Themechooser -->
+  <remove-project name="android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/ThemeChooser" name="regalstreak/android_packages_apps_ThemeChooser" remove="github" revision="marshmallow" />
+
+  <!-- End temporary stuff -->
+
+</manifest>
