@@ -14,16 +14,4 @@
   <project path="device/oppo/common" name="grarak/android_device_oppo_common" remote="github" revision="cm-13.0" />
   <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" remote="github" revision="cm-13.0" />
 
-  <!-- Temporary stuff until they merge the PR -->
-
-  <!-- CM Platform SDK -->
-  <remove-project name="cm_platform_sdk" />
-  <project path="vendor/cmsdk" name="regalstreak/cm_platform_sdk" remote="github" revision="marshmallow" />
-
-  <!-- Themechooser -->
-  <remove-project name="android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/ThemeChooser" name="regalstreak/android_packages_apps_ThemeChooser" remove="github" revision="marshmallow" />
-
-  <!-- End temporary stuff -->
-
 </manifest>
