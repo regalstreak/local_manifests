@@ -8,6 +8,6 @@
   <project path="vendor/oneplus" name="grarak/proprietary_vendor_oneplus" remote="github" revision="cm-13.0" />
 
   <!-- Oppo common -->
-  <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" remote="github" revision="cm-13.0" />
+  <project path="device/oppo/common" name="Cyanogenmod/android_device_oppo_common" remote="github" revision="cm-13.0" />
 
 </manifest>
