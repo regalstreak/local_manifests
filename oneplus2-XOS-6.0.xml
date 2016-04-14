@@ -4,7 +4,7 @@
 
   <!-- Device, Kernel and Vendor -->
   <project path="device/oneplus/oneplus2" name="regalstreak/android_device_oneplus_oneplus2" remote="github" revision="XOS-6.0" />
-  <project path="kernel/oneplus/msm8994" name="regalstreak/android_kernel_oneplus_msm8994" remote="github" revision="cm-13.0" />
+  <project path="kernel/oneplus/msm8994" name="oneplusoss/android_kernel_oneplus_msm8994" remote="github" revision="5.1.1" />
   <project path="vendor/oneplus" name="grarak/proprietary_vendor_oneplus" remote="github" revision="cm-13.0" />
 
   <!-- Oppo common -->
