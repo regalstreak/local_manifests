@@ -2,15 +2,30 @@
 
 <manifest>
 
-    <!-- Remotes -->
+    <!-- *Remotes* -->
     <remote name="github" fetch="https://github.com" />
 
-    <!-- Projects -->
+    <!-- *Projects* -->
+
+    <!-- Build system -->
+    <remove-project name="platform/build" />
+    <project path="build" name="regalstreak/platform_build" remote="github" revision="nougat-7.0" />
+
+    <!-- Kernel -->
     <remove-project name="kernel/msm-3.10" />
-    <project path="device/motorola/athene" name="regalstreak/android_device_motorola_athene" remote="github" revision="nougat-7.0" />
     <project path="kernel" name="regalstreak/android_kernel_motorola_msm8952" remote="github" revision="nougat-7.0" />
+
+    <!-- Device Tree -->    
+    <project path="device/motorola/athene" name="regalstreak/android_device_motorola_athene" remote="github" revision="nougat-7.0" />
+
+    <!-- Vendor Repo -->    
     <project path="vendor/motorola" name="regalstreak/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-13.0" />
-    <project path="device/qcom/sepolicy" name="Cyanogenmod/android_device_qcom_sepolicy" remote="github" revision="cm-13.0" />
+
+    <!-- qcom sepolicy -->
+    <remove-project name="device/qcom/sepolicy" />
+    <project path="device/qcom/sepolicy" name="regalstreak/android_device_qcom_sepolicy" remote="github" revision="nougat-7.0" />
+
+    <!-- External Libs -->
     <project path="external/bson" name="Cyanogenmod/android_external_bson" remote="github" revision="cm-13.0" />
     <project path="external/stlport" name="Cyanogenmod/android_external_stlport" remote="github" revision="cm-13.0" />
 
