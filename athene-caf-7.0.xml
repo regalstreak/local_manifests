@@ -33,4 +33,7 @@
     <project path="external/bson" name="Cyanogenmod/android_external_bson" remote="github" revision="cm-13.0" />
     <project path="external/stlport" name="Cyanogenmod/android_external_stlport" remote="github" revision="cm-13.0" />
 
+    <!-- Remove kerneltests -->
+    <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests" />
+
 </manifest>
