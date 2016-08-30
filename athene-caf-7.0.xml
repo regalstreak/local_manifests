@@ -13,7 +13,7 @@
 
     <!-- Kernel -->
     <remove-project name="kernel/msm-3.10" />
-    <project path="kernel" name="regalstreak/android_kernel_motorola_msm8952" remote="github" revision="nougat-7.0" />
+    <project path="kernel/motorola/msm8952" name="regalstreak/android_kernel_motorola_msm8952" remote="github" revision="nougat-7.0" />
 
     <!-- Device Tree -->    
     <project path="device/motorola/athene" name="regalstreak/android_device_motorola_athene" remote="github" revision="nougat-7.0" />
