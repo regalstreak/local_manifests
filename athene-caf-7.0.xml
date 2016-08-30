@@ -20,6 +20,10 @@
 
     <!-- Vendor Repo -->    
     <project path="vendor/motorola" name="regalstreak/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-13.0" />
+    
+    <!-- Qcom Common -->
+    <remove-project name="device/qcom/common" />
+    <project path="device/qcom/common" name="regalstreak/android_device_qcom_common" remote="github" revision="nougat-7.0" />    
 
     <!-- qcom sepolicy -->
     <remove-project name="device/qcom/sepolicy" />
