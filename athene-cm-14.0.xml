@@ -5,7 +5,7 @@
     <!-- *Projects* -->
 
     <!-- Kernel -->
-    <project path="kernel/motorola/msm8952" name="regalstreak/android_kernel_motorola_msm8952" remote="github" revision="cm-14.0" />
+    <project path="kernel/motorola/msm8952" name="regalstreak/android_kernel_motorola_msm8952" remote="github" revision="nougat-7.0-cm" />
 
     <!-- Device Tree -->    
     <project path="device/motorola/athene" name="regalstreak/android_device_motorola_athene" remote="github" revision="cm-14.0" />
