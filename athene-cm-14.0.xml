@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    
+    <!-- *Projects* -->
+
+    <!-- Kernel -->
+    <project path="kernel/motorola/msm8952" name="regalstreak/android_kernel_motorola_msm8952" remote="github" revision="cm-14.0" />
+
+    <!-- Device Tree -->    
+    <project path="device/motorola/athene" name="regalstreak/android_device_motorola_athene" remote="github" revision="cm-14.0" />
+
+    <!-- Vendor Repo -->    
+    <project path="vendor/motorola" name="regalstreak/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-13.0" />
+
+</manifest>
