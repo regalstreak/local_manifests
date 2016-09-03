@@ -12,5 +12,12 @@
 
     <!-- Vendor Repo -->    
     <project path="vendor/motorola" name="regalstreak/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-13.0" />
+    
+    <!-- External Libs -->
+    <project path="external/bson" name="CyanogenMod/android_external_bson" remote="github" revision="cm-13.0" />
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
+
+    <!-- Qcom Common -->
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
 
 </manifest>
