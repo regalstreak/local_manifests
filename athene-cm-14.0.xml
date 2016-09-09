@@ -2,6 +2,13 @@
 
 <manifest>
     
+    <!-- Remotes -->
+
+    <remote name="caf"
+        fetch="http://source.codeaurora.org/"
+        revision="LA.BF64.1.2.3_rb1.3"
+        review="codeaurora.org" />
+  
     <!-- *Projects* -->
 
     <!-- Kernel -->
@@ -19,5 +26,8 @@
 
     <!-- Qcom Common -->
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
+    
+    <!-- Arm kernel toolchain -->
+    <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="caf"/>
 
 </manifest>
