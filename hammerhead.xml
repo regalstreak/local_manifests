@@ -19,6 +19,8 @@
   
   <project path="build/kati" name="regalstreak/android_build_kati" groups="pdk,tradefed" remote="github" revision="o-preview" />
 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/tags/android-7.1.2_r17" />
+
   <project name="regalstreak/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="o-preview" />
   <project name="regalstreak/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="o-preview" />
   <project name="regalstreak/android_vendor_lge_hammerhead" path="vendor/lge/hammerhead" remote="github" revision="o-preview" />
