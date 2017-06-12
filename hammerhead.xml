@@ -6,6 +6,7 @@
 
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
+  <remove-project name="platform/hardware/qcom/display" />
   
   <project path="build/make" name="regalstreak/android_build_make" groups="pdk" remote="github" revision="o-preview" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -18,6 +19,7 @@
   </project>
   
   <project path="build/kati" name="regalstreak/android_build_kati" groups="pdk,tradefed" remote="github" revision="o-preview" />
+  <project name="regalstreak/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="o-preview" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/tags/android-7.1.2_r17" />
 
