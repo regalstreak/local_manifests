@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
+
   <remote  name="github"
            fetch="https://github.com/" />
 
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/hardware/qcom/display" />
-  
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/libnativehelper" />
+
   <project path="build/make" name="regalstreak/android_build_make" groups="pdk" remote="github" revision="o-preview" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -17,9 +19,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  
+
   <project path="build/kati" name="regalstreak/android_build_kati" groups="pdk,tradefed" remote="github" revision="o-preview" />
   <project name="regalstreak/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="o-preview" />
+  <project name="regalstreak/android_frameworks_native" path="frameworks/native" remote="github" revision="o-preview" />
+  <project name="regalstreak/android_libnativehelper" path="libnativehelper" remote="github" revision="o-preview" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/tags/android-7.1.2_r17" />
 
