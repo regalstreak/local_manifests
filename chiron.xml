@@ -4,5 +4,6 @@
   <project name="regalstreak/android_device_xiaomi_chiron" path="device/xiaomi/chiron" remote="github" revision="cm-14.1" />
   <project name="regalstreak/android_device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="cm-14.1" />
   <project name="regalstreak/android_vendor_xiaomi_chiron" path="vendor/xiaomi/chiron" remote="github" revision="cm-14.1" />
+  <project name="regalstreak/android_vendor_xiaomi_msm8998-common" path="vendor/xiaomi/msm8998-common" remote="github" revision="cm-14.1" />
 
 </manifest>
